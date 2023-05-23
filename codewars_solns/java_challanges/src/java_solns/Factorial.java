@@ -18,9 +18,7 @@ public class Factorial {
 	}
 
 	public static void main(String[]args) {
-		Factorial fact;
-		fact = new Factorial();
-
-		System.out.println(fact.factorial(13));
+		int fact = new Factorial().factorial(0);
+		System.out.println(fact);
 	}
 }
