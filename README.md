@@ -16,4 +16,9 @@ I built Time-Related Feature Engineering Pipelines in this notebook with Python 
 <strong>codewars_solns :</strong> <br />
 This folder contains small scripts I write to solve various coding challenges in Codewars in my free time.<br />
 
+<strong>Kaggle_My_Solo_Competition_Notebooks :</strong> <br />
+Contains notebooks for the kaggle competitions, I completed solo.<br />
+
+&emsp;Competition: Titanic - Machine Learning from Disaster , Notebook: Kaggle_Titanic_Ensembles , Score: Top 6%. <br />
+&emsp;&emsp;Link: https://www.kaggle.com/code/pelinkeskin/kaggle-titanic-ensembles-top-6
 
