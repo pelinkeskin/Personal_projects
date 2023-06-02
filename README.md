@@ -17,7 +17,7 @@ I implemented a Multi-Layer Neural Network from Scratch with Python for one of m
 I built Time-Related Feature Engineering Pipelines in this notebook with Python to predict traffic volumes. This is a project for an assignment in the ML course I studied during my Master's in CS.  I performed time-related feature engineering by encoding time features using cyclic_spline_transformer and used wrapper strategy with sequential forward selection for feature selection. I built a predictive model using Stochastic Gradient Descent regression with polynomial transformation and achieved 85% accuracy in predicting traffic volumes. Dataset Source: https://archive.ics.uci.edu/ml/datasets/Metro+Interstate+Traffic+Volume  <br />
   </p>
  <p align="justify">
-<strong>Interactive_dashboard_Vega-Lite:</strong> <br />
+<strong>Interactive_Dashboard_Vega-Lite (Nuclear Explosions Across the Globe):</strong> <br /> 
 I created an interactive dashboard using Vega-Lite for visual storytelling as part of an assignment for my CS master's degree. My aim was to allow users to explore the relationship between countries that deploy nuclear devices, the purposes of detonations, the methods of deployment, explosion yields, and locations of the explosions. To use the tool, download the HTML file in this folder, open it with the browser and enjoy using this interactive tool. The dataset used for this visualisation tool was adapted from the 2019 Tidy Tuesday Collection dataset: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-08-20
 The documentation of my visual storytelling through the utilisation of this dashboard is currently accessible at: https://youtu.be/KpmABg-ydCg <br/>
  </p>
