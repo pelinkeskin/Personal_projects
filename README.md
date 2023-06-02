@@ -1,6 +1,6 @@
 # Personal_projects
 <p>This repository contains personal projects I did in my free time and during my CS Masters's degree in UCD .</p>
-
+<p align="justify>
 <strong>DBMS_BASH :</strong> <br />
 I implemented a small database management system in Bash for one of my modules during my Masters. Data exchange between client and server for data entry and query provided through pipes. The system supported concurrent execution and protected against synchronisation problems with the effective use of semaphores. The system was able to create a database, create a table, insert rows in tables at existing databases and allowed to query the tables at targeted databases as a whole or with column indexes to display content. <br />
 
@@ -13,10 +13,16 @@ I implemented a Multi-Layer Neural Network from Scratch with Python for one of m
 <strong>Time-Related_Feature_Engineering :</strong> <br />
 I built Time-Related Feature Engineering Pipelines in this notebook with Python to predict traffic volumes. This is a project for an assignment in the ML course I studied during my Master's in CS.  I performed time-related feature engineering by encoding time features using cyclic_spline_transformer and used wrapper strategy with sequential forward selection for feature selection. I built a predictive model using Stochastic Gradient Descent regression with polynomial transformation and achieved 85% accuracy in predicting traffic volumes. Dataset Source: https://archive.ics.uci.edu/ml/datasets/Metro+Interstate+Traffic+Volume  <br />
 
-<strong>codewars_solns :</strong> <br />
-This folder contains small scripts I write to solve various coding challenges in Codewars in my free time.<br />
-
 <strong>Interactive_dashboard_Vega-Lite:</strong> <br />
 I created an interactive dashboard using Vega-Lite for visual storytelling as part of an assignment for my CS master's degree. My aim was to allow users to explore the relationship between countries that deploy nuclear devices, the purposes of detonations, the methods of deployment, explosion yields, and locations of the explosions. 
 The dataset used for this visualisation tool was adapted from the 2019 Tidy Tuesday Collection dataset: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-08-20
 The video explanation is available at: https://youtu.be/KpmABg-ydCg
+
+<strong>Kaggle_My_Solo_Competition_Notebooks:</strong> <br />
+This file contains notebooks I submitted to Kaggle competitions. 
+I am pleased to report that I am currently performing well in the Titanic Competition and have achieved a ranking within the top 6%. While my notebook did receive a bronze rating, I have taken it down and am actively working to improve it. As of present, I am in the process of making updates to enhance the quality of my work and subsequently increase my score.
+My Kaggle page: https://www.kaggle.com/pelinkeskin
+
+<strong>codewars_solns :</strong> <br />
+This folder contains small scripts I write to solve various coding challenges in Codewars in my free time.<br />
+</p>
