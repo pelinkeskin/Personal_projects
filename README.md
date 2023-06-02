@@ -16,12 +16,12 @@ I built Time-Related Feature Engineering Pipelines in this notebook with Python 
 <strong>Interactive_dashboard_Vega-Lite:</strong> <br />
 I created an interactive dashboard using Vega-Lite for visual storytelling as part of an assignment for my CS master's degree. My aim was to allow users to explore the relationship between countries that deploy nuclear devices, the purposes of detonations, the methods of deployment, explosion yields, and locations of the explosions. 
 The dataset used for this visualisation tool was adapted from the 2019 Tidy Tuesday Collection dataset: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-08-20
-The video explanation is available at: https://youtu.be/KpmABg-ydCg
+The video explanation is available at: https://youtu.be/KpmABg-ydCg <br/>
 
 <strong>Kaggle_My_Solo_Competition_Notebooks:</strong> <br />
 This file contains notebooks I submitted to Kaggle competitions. 
 I am pleased to report that I am currently performing well in the Titanic Competition and have achieved a ranking within the top 6%. While my notebook did receive a bronze rating, I have taken it down and am actively working to improve it. As of present, I am in the process of making updates to enhance the quality of my work and subsequently increase my score.
-My Kaggle page: https://www.kaggle.com/pelinkeskin
+My Kaggle page: https://www.kaggle.com/pelinkeskin  <br/>
 
 <strong>codewars_solns :</strong> <br />
 This folder contains small scripts I write to solve various coding challenges in Codewars in my free time.<br />
