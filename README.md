@@ -18,9 +18,8 @@ I built Time-Related Feature Engineering Pipelines in this notebook with Python 
   </p>
  <p align="justify">
 <strong>Interactive_dashboard_Vega-Lite:</strong> <br />
-I created an interactive dashboard using Vega-Lite for visual storytelling as part of an assignment for my CS master's degree. My aim was to allow users to explore the relationship between countries that deploy nuclear devices, the purposes of detonations, the methods of deployment, explosion yields, and locations of the explosions. 
-The dataset used for this visualisation tool was adapted from the 2019 Tidy Tuesday Collection dataset: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-08-20
-The video explanation is available at: https://youtu.be/KpmABg-ydCg <br/>
+I created an interactive dashboard using Vega-Lite for visual storytelling as part of an assignment for my CS master's degree. My aim was to allow users to explore the relationship between countries that deploy nuclear devices, the purposes of detonations, the methods of deployment, explosion yields, and locations of the explosions. To use the tool, download the HTML file in this folder, open it with the browser and enjoy using this interactive tool. The dataset used for this visualisation tool was adapted from the 2019 Tidy Tuesday Collection dataset: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-08-20
+The documentation of my visual storytelling through the utilisation of this dashboard is currently accessible at: https://youtu.be/KpmABg-ydCg <br/>
  </p>
  <p align="justify">
 <strong>Kaggle_My_Solo_Competition_Notebooks:</strong> <br />
