@@ -2,12 +2,8 @@
 <p>This repository contains personal projects I did in my free time and during my CS Masters's degree in UCD .</p>
 <p align="justify">
 <strong>DBMS_BASH :</strong> <br />
-I implemented a small database management system in Bash for one of my modules during my Masters. Data exchange between client and server for data entry and query provided through pipes. The system supported concurrent execution and protected against synchronisation problems with the effective use of semaphores. The system was able to create a database, create a table, insert rows in tables at existing databases and allowed to query the tables at targeted databases as a whole or with column indexes to display content. <br /> </p>
-
- <p align="justify">
-<strong>JobAdsWordFreqEval :</strong> <br />
-Small-scale text analytics study to assess word frequencies across data analytics job ads at LinkedIn, which helps gain insight into the common traits employers currently look for in data analytics roles.  <br />
-  </p>
+I implemented a small database management system in Bash for one of my modules during my Masters. Data exchange between client and server for data entry and query provided through pipes. The system supported concurrent execution and protected against synchronisation problems with the effective use of semaphores. The system was able to create a database, create a table, insert rows in tables at existing databases and allowed to query the tables at targeted databases as a whole or with column indexes to display content. <br /> 
+</p>
  <p align="justify">
 <strong>Multi-Layer_Neural_Network_from_Scratch :</strong> <br />
 I implemented a Multi-Layer Neural Network from Scratch with Python for one of my modules during my Masters. The implemented network was a shallow multilayer neural network of 1 hidden layer. The network could take any number of inputs, any number of outputs, and any number of hidden units. Learning implemented by backpropagation using batch gradient descent. The network is implemented to be flexible. It can handle regression and classification tasks and utilise different activation functions for hidden and output units depending on the user’s choice. In the classification task, the network used a leaky rectified linear unit activation function for hidden layer activation. For output layer activations, it used sigmoid activation functions for binary classification and softmax activation functions for multiclass classification. The network used a log loss cost function to observe training performance for classification. For regression, output wasn’t activated, and for the hidden layer, the user was given a choice to select from various activation functions: sigmoid function, hyperbolic tangent function, leaky rectified linear unit function, and binary step function. The network used the square error cost function to observe training performance for regression. Implemented network tested on two classification tasks, which were to predict XOR function, letter recognition and one regression task to approximate a sin function. Test results are available in separate notebooks. Source of the dataset for letter recognition: http://archive.ics.uci.edu/ml/datasets/Letter+Recognition  <br/>
@@ -27,6 +23,10 @@ This file contains notebooks I submitted to Kaggle competitions.
 I am pleased to report that I am currently performing well in the Titanic Competition and have achieved a ranking within the top 6%. While my notebook did receive a bronze rating, I have taken it down and am actively working to improve it. As of present, I am in the process of making updates to enhance the quality of my work and subsequently increase my score.
 My Kaggle page: https://www.kaggle.com/pelinkeskin  <br/>
  </p>
+ <p align="justify">
+<strong>JobAdsWordFreqEval :</strong> <br />
+Small-scale text analytics study to assess word frequencies across data analytics job ads at LinkedIn, which helps gain insight into the common traits employers currently look for in data analytics roles.  <br />
+  </p>
  <p align="justify">
 <strong>codewars_solns :</strong> <br />
 This folder contains small scripts I write to solve various coding challenges in Codewars in my free time.<br />
