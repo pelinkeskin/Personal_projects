@@ -1,0 +1,324 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/pelinkeskin/Personal_projects/main/ne.csv",
+    "format": {"type": "csv"}
+  },
+  "title": {"text": "Nuclear Explosions", "anchor": "middle"},
+  "hconcat": [
+    {
+      "bounds": "full",
+      "center": true,
+      "height": 153,
+      "width": 100,
+      "title": {
+        "text": ["Counts by", " Type & Purpose"],
+        "fontSize": 15,
+        "anchor": "middle",
+        "align": "center",
+        "orient": "top"
+      },
+      "mark": {"type": "bar"},
+      "encoding": {
+        "row": {
+          "field": "Purpose",
+          "type": "nominal",
+          "header": {"labelOrient": "bottom", "title": null}
+        },
+        "x": {
+          "impute": null,
+          "field": "type1",
+          "type": "nominal",
+          "title": null,
+          "sort": {"field": "type1", "op": "count", "order": "descending"}
+        },
+        "y": {
+          "impute": null,
+          "field": "id_no",
+          "aggregate": "valid",
+          "title": null,
+          "scale": {"domainMin": 0, "domain": {"unionWith": [0]}}
+        },
+        "color": {"legend": null, "field": "country"},
+        "opacity": {"condition": {"param": "stype", "value": 1}, "value": 0.3}
+      },
+      "resolve": {"scale": {"y": "independent"}},
+      "params": [
+        {
+          "name": "stype",
+          "select": {
+            "resolve": "union",
+            "type": "point",
+            "on": "click",
+            "toggle": true,
+            "fields": ["type1"],
+            "encodings": ["x"]
+          }
+        }
+      ],
+      "transform": [
+        {"fold": ["purpose1"], "as": ["Column", "Purpose"]},
+        {"filter": {"param": "syear"}},
+        {"filter": {"param": "scountry"}}
+      ]
+    },
+    {
+      "vconcat": [
+        {
+          "width": 800,
+          "height": 400,
+          "projection": {"type": "naturalEarth1"},
+          "layer": [
+            {
+              "data": {
+                "url": "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json",
+                "format": {"type": "topojson", "feature": "countries1"}
+              },
+              "mark": {"type": "geoshape", "stroke": "white", "fill": "#ccc"}
+            },
+            {
+              "mark": {"type": "point"},
+              "encoding": {
+                "longitude": {"field": "longitude", "type": "quantitative"},
+                "latitude": {"field": "latitude", "type": "quantitative"},
+                "color": {
+                  "legend": null,
+                  "field": "country",
+                  "type": "nominal",
+                  "scale": {
+                    "domain": [
+                      "CHINA",
+                      "FRANCE",
+                      "INDIA",
+                      "PAKIST",
+                      "UK",
+                      "USA",
+                      "USSR"
+                    ],
+                    "range": [
+                      "#e45756",
+                      "#b279a2",
+                      "#f58518",
+                      "#9d755d",
+                      "#54a24b",
+                      "#ff9da6",
+                      "#4c78a8"
+                    ]
+                  }
+                },
+                "size": {
+                  "scale": {"type": "threshold", "domain": [100, 5000, 10000]},
+                  "field": "yield_upper",
+                  "type": "quantitative",
+                  "legend": {
+                    "title": ["Yield (Kiloton TNT):"],
+                    "orient": "none",
+                    "legendX": 150,
+                    "legendY": -40,
+                    "direction": "horizontal",
+                    "titleOrient": "left",
+                    "titleAnchor": "middle",
+                    "titleFontSize": 15,
+                    "labelFontSize": 14,
+                    "fillColor": "#ccc",
+                    "cornerRadius": 15,
+                    "labelColor": "white",
+                    "titleColor": "white",
+                    "symbolStrokeColor": "white",
+                    "padding": 5,
+                    "rowPadding": 6,
+                    "columnPadding": 12,
+                    "gridAlign": "each"
+                  }
+                },
+                "tooltip": [
+                  {"field": "name", "type": "nominal", "title": "Name"},
+                  {"field": "date_long", "type": "temporal", "title": "Date"},
+                  {"field": "type1", "type": "nominal", "title": "Type"},
+                  {"field": "purpose1", "type": "nominal", "title": "Purpose"},
+                  {
+                    "field": "yield_upper",
+                    "type": "quantitative",
+                    "title": "Yield"
+                  }
+                ]
+              },
+              "transform": [
+                {"filter": {"param": "syear"}},
+                {"filter": {"param": "scountry"}},
+                {"filter": {"param": "stype"}}
+              ],
+              "params": []
+            }
+          ]
+        },
+        {
+          "bounds": "flush",
+          "center": true,
+          "width": 800,
+          "height": 180,
+          "title": {
+            "text": "# Explosions per Year",
+            "fontSize": 15,
+            "align": "center",
+            "anchor": "middle",
+            "orient": "bottom"
+          },
+          "mark": {"type": "trail"},
+          "encoding": {
+            "x": {
+              "impute": null,
+              "field": "year",
+              "timeUnit": "year",
+              "type": "nominal",
+              "axis": {"title": null, "labelAngle": 90}
+            },
+            "y": {
+              "field": "date_long",
+              "aggregate": "valid",
+              "impute": null,
+              "title": null,
+              "scale": {"type": "log", "domain": [0.9, 110]},
+              "axis": {"orient": "right"}
+            },
+            "color": {"field": "country", "type": "nominal", "legend": null},
+            "size": {
+              "field": "yield_upper",
+              "legend": null,
+              "aggregate": "sum",
+              "scale": {"type": "symlog", "constant": 10}
+            },
+            "tooltip": [
+              {
+                "field": "yield_upper",
+                "type": "quantitative",
+                "aggregate": "sum",
+                "title": "Cumulative Yield"
+              },
+              {"aggregate": "count", "title": "Count"},
+              {
+                "field": "year",
+                "timeUnit": "year",
+                "type": "nominal",
+                "title": "Year"
+              }
+            ]
+          },
+          "resolve": {"legend": {"color": "shared"}},
+          "transform": [
+            {"filter": {"param": "scountry"}},
+            {"filter": {"param": "stype"}}
+          ],
+          "params": [
+            {
+              "name": "syear",
+              "select": {"type": "interval", "encodings": ["x"]}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "height": 608,
+      "width": 120,
+      "title": {
+        "text": ["Cumulative", "Yields & Counts"],
+        "fontSize": 15,
+        "anchor": "middle",
+        "align": "center",
+        "orient": "top"
+      },
+      "encoding": {
+        "x": {
+          "type": "nominal",
+          "field": "country",
+          "title": null,
+          "sort": {"field": "yield_upper", "op": "sum"}
+        },
+        "y": {
+          "field": "yield_upper",
+          "type": "quantitative",
+          "aggregate": "sum",
+          "scale": {"type": "log", "base": 3},
+          "axis": {
+            "values": [
+              0,
+              41,
+              53,
+              100,
+              500,
+              250,
+              1000,
+              2500,
+              5000,
+              11000,
+              25000,
+              50000,
+              100000,
+              150000,
+              235000,
+              375000
+            ],
+            "labelFontSize": 12,
+            "orient": "right"
+          },
+          "title": null
+        },
+        "color": {
+          "condition": {
+            "param": "scountry",
+            "field": "country",
+            "type": "nominal"
+          },
+          "value": "#ccc"
+        }
+      },
+      "layer": [
+        {
+          "mark": {"type": "bar"},
+          "params": [
+            {
+              "name": "scountry",
+              "select": {
+                "type": "point",
+                "on": "click",
+                "toggle": true,
+                "fields": ["country"],
+                "encodings": ["x"]
+              }
+            }
+          ],
+          "transform": [
+            {"filter": {"param": "syear"}},
+            {"filter": {"param": "stype"}}
+          ]
+        },
+        {
+          "mark": {"type": "text", "dy": -5, "align": "right"},
+          "encoding": {
+            "text": {
+              "aggregate": "count",
+              "type": "quantitative",
+              "format": {"type": "number"}
+            }
+          },
+          "transform": [
+            {"filter": {"param": "syear"}},
+            {"filter": {"param": "stype"}}
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {
+    "padding": {"top": 5, "bottom": 5, "left": 5, "right": 5},
+    "header": {"titleFontSize": 15, "labelFontSize": 12},
+    "title": {
+      "align": "center",
+      "anchor": "middle",
+      "baseline": "middle",
+      "fontSize": 25
+    },
+    "axis": {"titleFontSize": 15, "labelFontSize": 12}
+  }
+}

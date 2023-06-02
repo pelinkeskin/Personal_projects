@@ -16,4 +16,7 @@ I built Time-Related Feature Engineering Pipelines in this notebook with Python 
 <strong>codewars_solns :</strong> <br />
 This folder contains small scripts I write to solve various coding challenges in Codewars in my free time.<br />
 
-
+<strong>Interactive_dashboard_Vega-Lite:</strong> <br />
+I created an interactive dashboard using Vega-Lite for visual storytelling as part of an assignment for my CS master's degree. My aim was to allow users to explore the relationship between countries that deploy nuclear devices, the purposes of detonations, the methods of deployment, explosion yields, and locations of the explosions. 
+The dataset used for this visualisation tool was adapted from the 2019 Tidy Tuesday Collection dataset: https://github.com/rfordatascience/tidytuesday/tree/master/data/2019/2019-08-20
+The video explanation is available at: https://youtu.be/KpmABg-ydCg
