@@ -19,8 +19,7 @@ The documentation of my visual storytelling through the utilisation of this dash
  </p>
  <p align="justify">
 <strong>Kaggle_My_Solo_Competition_Notebooks:</strong> <br />
-This file contains notebooks I submitted to Kaggle competitions. 
-I am pleased to report that I am currently performing well in the Titanic Competition and have achieved a ranking within the top 6%. While my notebook did receive a bronze rating, I have taken it down and am actively working to improve it. As of present, I am in the process of making updates to enhance the quality of my work and subsequently increase my score.
+This file contains notebooks I submitted to Kaggle competitions. Kaggle_Titanic_Ensembles (Top_6%).ipynb was my first notebook, and I achieved a ranking within the top 6% with a 0.79425 leader score by using an Ensemble of SVC, RFC, XGBoost, and CatBoost classifiers. Kaggle_Titanic_Final_RFC_SVC_XGB.ipynb is my second notebook. I used RFC, XGB and SVC classifiers and my SVC in this notebook managed to get a 0.79186 leader score. I performed extensive data exploration with visualisation and feature engineering in my second notebook. For feature evaluation and selection, I used a combination of statistical methods and wrapper methods. Such that; I utilised gridsearchcv with an exhaustive feature selection to finalise feature lists and determine starting parameters for the models. This notebook is currently publicly available and open for comments on my Kaggle page. 
 My Kaggle page: https://www.kaggle.com/pelinkeskin  <br/>
  </p>
  <p align="justify">
