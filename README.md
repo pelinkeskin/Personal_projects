@@ -42,6 +42,11 @@ This is a combination of two projects I made for one of my modules during my Mas
 <strong>Time-Related_Feature_Engineering :(11/2022)</strong> <br />
 I built Time-Related Feature Engineering Pipelines with Python to predict traffic volumes. I completed this project as part of an assignment in one of my modules during my Masters.  I performed time-related feature engineering by encoding time features using cyclic_spline_transformer and used wrapper strategy with sequential forward selection for feature selection. I built a predictive model using Stochastic Gradient Descent regression with polynomial transformation and achieved 85% accuracy in predicting traffic volumes. Dataset Source: https://archive.ics.uci.edu/ml/datasets/Metro+Interstate+Traffic+Volume  <br />
   </p>
+ <p align="justify">
+<strong>DatawareHousing_AssociationRule_Mining :(10/2022)</strong> <br />
+I completed these tasks as part of an assignment in one of my modules during my Masters. This folder contains 2 notebooks; In Data_Warehousing_practice.ipynb I create a database and make a set of OLAP queries to explore the data. Then I defined a Snowflake Data warehouse schema with facts, dimensions, and measures and addressed specific OLAP operations to perform to answer a certain query. Then use PostgreSQL Python and its libraries and define a set of functions to operate the data warehouse. In Association_Rule_Mining_Practice.ipynb,  I cleaned and transformed an online retail dataset for association rule mining, then mined association rules using Apriori and FP-growth algorithms.
+  <br />
+  </p>
 <p align="justify">
 <strong>DBMS_BASH :(11/2021)</strong> <br />
 I implemented a small database management system in Bash for one of my modules during my Masters. Data exchange between client and server for data entry and query provided through pipes. The system supported concurrent execution and protected against synchronisation problems with the effective use of semaphores. The system was able to create a database, create a table, insert rows in tables at existing databases and allowed to query the tables at targeted databases as a whole or with column indexes to display content. <br /> 
