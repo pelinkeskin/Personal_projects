@@ -44,7 +44,7 @@ I built Time-Related Feature Engineering Pipelines with Python to predict traffi
   </p>
  <p align="justify">
 <strong>DatawareHousing_AssociationRule_Mining :(10/2022)</strong> <br />
-I completed these tasks as part of an assignment in one of my modules during my Masters. This folder contains 2 notebooks; In Data_Warehousing_practice.ipynb I create a database and make a set of OLAP queries to explore the data. Then I defined a Snowflake Data warehouse schema with facts, dimensions, and measures and addressed specific OLAP operations to perform to answer a certain query. Then use PostgreSQL Python and its libraries and define a set of functions to operate the data warehouse. In Association_Rule_Mining_Practice.ipynb,  I cleaned and transformed an online retail dataset for association rule mining, then mined association rules using Apriori and FP-growth algorithms.
+I completed these tasks as part of an assignment in one of my modules during my Masters. This folder contains 2 notebooks; In Data_Warehousing_practice.ipynb I create a database and make a set of OLAP queries to explore the data. Then I defined a fact constellation schema diagram for the data warehouse with facts, dimensions, and measures and addressed steps for specific OLAP operations to perform  in order to answer a certain query. Then use PostgreSQL Python and its libraries and define a set of functions to operate the data warehouse. In Association_Rule_Mining_Practice.ipynb,  I cleaned and transformed an online retail dataset for association rule mining, then mined association rules using Apriori and FP-growth algorithms.
   <br />
   </p>
 <p align="justify">
