@@ -21,7 +21,7 @@ I completed this project as part of an assignment in one of my modules during my
 I completed this project as part of an assignment in one of my modules during my Masters. The project involved creating a gradient-boosting regressor for continuous prediction problems by inheriting from appropriate scikit-learn base classes. The implementation allowed the subsampling of rows in the samples and included a learning rate hyperparameter. I tested my self-built algorithm against sklearn Adaboost regressor on [commonlitreadabilityprize dataset](https://www.kaggle.com/competitions/commonlitreadabilityprize) 's bag of words and sentence embedding representations. After tuning the hyperparameters for both models, my self-built gradient boosting regressor showed slightly better prediction performance than sklearn's AdaBoost algorithm. 
 
 
-### [A small study to assess word frequencies across data analytics job ads]([JobAdsWordFreqEval](https://github.com/pelinkeskin/Personal_projects/tree/main/JobAdsWordFreqEval)) (12/2022)
+### [A small study to assess word frequencies across data analytics job ads](https://github.com/pelinkeskin/Personal_projects/tree/main/JobAdsWordFreqEval) (12/2022)
 I created this notebook to gain insight into the common traits employers currently look for in data analytics roles by examining a set of job ads posted on Linkedin.
 
 
