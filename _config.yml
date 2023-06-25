@@ -1,4 +1,5 @@
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
-Description: [In this repository, you can find the personal projects I worked on during my CS Masters's program as well as in my free time.]
+title: [Personal Projects]
+description: [In this repository, you can find the personal projects I worked on during my CS Masters program and in my free time.]
