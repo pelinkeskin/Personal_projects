@@ -14,3 +14,6 @@ class TestCodewarsStyleRankingSystem(unittest.TestCase):
         user.inc_progress(-3)
         self.assertEqual(user.progress, 60)
         self.assertEqual(user.rank, -6)
+
+if __name__ == '__main__':
+    unittest.main()
