@@ -1,9 +1,7 @@
 SELECT ID,
-	COALESCE(NULLIF (NAME,
-										''), '[product name not found]') AS NAME,
+	COALESCE(NULLIF (NAME,''), '[product name not found]') AS NAME,
 	PRICE,
-	COALESCE(NULLIF (CARD_NAME,
-										''), '[card name not found]') AS CARD_NAME,
+	COALESCE(NULLIF (CARD_NAME,''), '[card name not found]') AS CARD_NAME,
 	CARD_NUMBER,
 	TRANSACTION_DATE
 FROM EXERCISE3.EUSALES
