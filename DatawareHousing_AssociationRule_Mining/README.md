@@ -1,0 +1,2 @@
+### Analysing Books with Hadoop & Data Exploration with PySpark
+This is a combination of two projects I made for one of my modules during my Masters to gain practical experience in using big data management tools, Hadoop and Spark. To complete Hadoop tasks, I loaded three books to HDFS and wrote map-reduce tasks with Python to analyze books. To complete PySpark tasks, I analyzed the wordle game dataset extracted from Twitter  by utilizing a sparks multiprocessing framework with RDDs and Dataframes. 
