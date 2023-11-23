@@ -82,7 +82,7 @@ This folder contains studies for practicing Data Warehousing and association rul
   <summary>Description</summary>
 I implemented a small database management system in Bash.</details>
 
-### [My CodeWars Solutions](https://github.com/pelinkeskin/Personal_projects/tree/main/codewars_solns) (on-going)
+#### [My CodeWars Solutions](https://github.com/pelinkeskin/Personal_projects/tree/main/codewars_solns) (on-going)
 <details>
   <summary>Description</summary>
 This folder contains my solutions for coding challenges.</details>
