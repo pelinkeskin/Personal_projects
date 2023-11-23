@@ -2,4 +2,7 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
 title: [Pelin Keskin]
-description: [This repository houses a compilation of personal projects that I have accomplished during my CS Masters program and leisure time.]
+description: >
+  This repository houses a compilation of personal projects that I have accomplished during my CS Masters program and leisure time.
+  <br><br>
+  <a href="https://www.linkedin.com/in/pelin-keskin-690b3967/">LinkedIn </a> <a href="https://www.kaggle.com/pelinkeskin">Kaggle </a> 
