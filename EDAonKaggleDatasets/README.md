@@ -1,0 +1,3 @@
+### Exploratory data analysis on Kaggle Datasets
+This folder contains notebooks I created for exploratory data analysis and visualization of interesting datasets obtained from Kaggle. 
+AI,ML,DS,BigData_Jobs_Analysis.ipynb: I analyzed the [Scraped Data on AI, ML, DS & Big Data Jobs](https://www.kaggle.com/datasets/joyshil0599/data-science-jobs-comprehensive-dataset) dataset to gather useful insights on job prospects in AI, ML, DS, and Big Data. This notebook is publicly available and open for comments on [Kaggle](https://www.kaggle.com/code/pelinkeskin/analysing-the-data-on-ai-ml-ds-big-data-jobs).
