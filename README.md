@@ -2,6 +2,9 @@
 
 <p>This repository contains personal projects I did in my free time and during my CS master's degree.</p>
 
+* #### [Kaggle Store Sales - Time Series Forecasting Competition](https://github.com/pelinkeskin/Personal_projects/tree/main/Kaggle_StoreSales_TimeSeries_TensorFlow_LSTM-CNN) (12/2023)
+  *   <details> <summary>Description</summary> The challenge revolved around forecasting store sales on data from Corporación Favorita, a large Ecuadorian-based grocery retailer. </details>
+
 * #### [Kaggle Natural Language Processing with Disaster Tweets Competition](https://github.com/pelinkeskin/Personal_projects/tree/main/Kaggle_NLP_Disaster_Tweets) (11/2023)
   *   <details> <summary>Description</summary> The challenge revolved around constructing a machine learning model adept at distinguishing genuine disaster-related tweets from others. </details>
 
