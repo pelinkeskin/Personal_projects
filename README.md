@@ -2,6 +2,12 @@
 
 <p>This repository contains personal projects I did in my free time and during my CS master's degree.</p>
 
+* #### [Kaggle  Multi-Class Prediction of Obesity Risk Competition](https://github.com/pelinkeskin/Personal_projects/tree/main/Kaggle_MultiClass_Obesity_Risk_Pred_Multi-input_Tabular_Transformer) (02/2024)
+  *   <details> <summary>Description</summary> The goal of this competition was to use various factors to predict obesity risk in individuals, which is related to cardiovascular disease </details>
+
+* #### [Kaggle Enefit - Predict Energy Behavior of Prosumers Competition](https://github.com/pelinkeskin/Personal_projects/tree/main/Kaggle_Enefit_Multi-Step_Forecast_DNN_MultivariateTimeSeries) (01/2024)
+  *   <details> <summary>Description</summary> This competition involved creating an energy prediction model of prosumers to reduce energy imbalance costs. </details>
+
 * #### [Kaggle Store Sales - Time Series Forecasting Competition](https://github.com/pelinkeskin/Personal_projects/tree/main/Kaggle_StoreSales_TimeSeries_TensorFlow_LSTM-CNN) (12/2023)
   *   <details> <summary>Description</summary> The challenge revolved around forecasting store sales on data from Corporación Favorita, a large Ecuadorian-based grocery retailer. </details>
 
