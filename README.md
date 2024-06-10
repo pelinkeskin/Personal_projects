@@ -2,6 +2,9 @@
 
 <p>This repository contains personal projects I did in my free time and during my CS master's degree.</p>
 
+* #### [Kaggle Home Credit - Credit Risk Model Stability Competition](https://github.com/pelinkeskin/Personal_projects/tree/main/Kaggle_Home_Credit_Risk_Model_Stability) (05/2024)
+  *   <details> <summary>Description</summary> The goal of this competition was to predict which clients are more likely to default on their loans where evaluation favored solutions that are stable over time </details>
+
 * #### [Kaggle  Multi-Class Prediction of Obesity Risk Competition](https://github.com/pelinkeskin/Personal_projects/tree/main/Kaggle_MultiClass_Obesity_Risk_Pred_Multi-input_Tabular_Transformer) (02/2024)
   *   <details> <summary>Description</summary> The goal of this competition was to use various factors to predict obesity risk in individuals, which is related to cardiovascular disease </details>
 
